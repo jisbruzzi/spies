@@ -1,0 +1,27 @@
+<html>
+	<style>
+		content {
+			display:flex;
+			flex-direction:row;
+			
+		}
+	</style>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <title>App para dibujar grafos</title>
+        <script src="sitio.js"></script>
+    </head>
+    
+    <body>
+		<header>
+			<button id="limpiar">limpiar</button>
+			<button id="copiar">copiar al portapapeles (no anda)</button>
+		</header>
+		<content>
+			<canvas id="canvas" width="800" height="800" style="border:1px solid #000000;"></canvas>
+			<pre id="paracopiar"></pre>
+		</content>
+    </body>
+    
+
+</html>
